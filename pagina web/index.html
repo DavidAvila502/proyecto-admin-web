@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body class="custom-color">
+    <div class="main-container">
+      <div class="imagen-area"></div>
+
+      <div class="formulario-area">
+        <div class="contenedor-formulario">
+          <h2 class="titulo-formulario">Welcome Back!</h2>
+          <p class="subtitulo-formulario">
+            Enter or register, it's totally free
+          </p>
+
+          <form
+            action="./conexion/validar.php"
+            class="formulario"
+            method="post"
+          >
+            <table>
+              <tr>
+                <td>
+                  <div class="entrada-contenedor">
+                    <input type="text" placeholder="User" class="entrada" />
+                    <img src="./assets/images/user.svg" alt="user" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="entrada-contenedor mt-15">
+                    <input
+                      type="password"
+                      placeholder="Password"
+                      class="entrada"
+                    />
+                    <img src="./assets/images/password.svg" alt="user" />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input class="black-boton mt-15" type="submit" value="Send" />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="or-seccion mt-31">
+                    <div class="line-or"></div>
+                    <p class="or">Or</p>
+                    <div class="line-or"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    class="social-contenedor entrada-contenedor mt-31"
+                    href="#"
+                  >
+                    <img
+                      src="./assets/images/google.svg"
+                      alt="Google"
+                      class="social-icon"
+                    />
+                    Sing in with google
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    class="social-contenedor entrada-contenedor mt-15"
+                    href="#"
+                  >
+                    <img
+                      src="./assets/images/facebook.svg"
+                      alt="facebook"
+                      class="social-icon he-30"
+                    />
+                    Sing in with Facebook
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a class="a-black-boton mt-15" href="./pages/register.html">
+                    Sing up
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

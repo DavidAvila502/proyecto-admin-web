@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.custom-color {
+  background-color: #484848;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main-container {
+  background-color: #fff;
+  width: 980px;
+  height: 759px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "imagen formulario";
+}
+.imagen-area {
+  grid-area: imagen;
+  background-color: black;
+  background-image: url("../assets/images/headphones.png");
+}
+
+/*************** FORMULARIO *******************/
+.formulario-area {
+  grid-area: formulario;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-formulario {
+  width: 374px;
+  height: 632px;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo-formulario {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.subtitulo-formulario {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #686868;
+  margin-top: 13px;
+  margin-bottom: 0px;
+}
+.formulario {
+  margin-top: 31px;
+}
+.entrada-contenedor {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 241px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+.entrada {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: 0;
+  width: 150px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.black-boton {
+  background-color: #000;
+  width: 263px;
+  height: 38px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.black-boton:hover {
+  transform: scale(1.08);
+}
+.or-seccion {
+  width: 263px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-31 {
+  margin-top: 31px;
+}
+.or {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0px 31px 0px 31px;
+}
+.line-or {
+  width: 71px;
+  height: 0px;
+  border: 1px solid #000;
+}
+.social-contenedor {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #b6b6b6;
+  border: 2px solid #b6b6b6;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.social-contenedor:hover {
+  transform: scale(1.08);
+}
+.social-icon {
+  height: 25px;
+  margin-right: 20px;
+}
+.he-30 {
+  height: 30px;
+}
+.a-black-boton {
+  background-color: #000;
+  width: 263px;
+  height: 38px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.a-black-boton:hover {
+  transform: scale(1.08);
+}
