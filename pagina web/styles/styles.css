@@ -147,3 +147,24 @@ body {
 .a-black-boton:hover {
   transform: scale(1.08);
 }
+
+/*************************** Estilos de registro ***************************/
+.imagen-registro {
+  background-image: url("../assets/images/userWall.png");
+}
+.terms {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.back {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}

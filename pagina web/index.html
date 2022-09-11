@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" type="text/css" />
-    <title>Document</title>
+    <title>Login</title>
   </head>
   <body class="custom-color">
     <div class="main-container">
@@ -14,6 +14,7 @@
       <div class="formulario-area">
         <div class="contenedor-formulario">
           <h2 class="titulo-formulario">Welcome Back!</h2>
+
           <p class="subtitulo-formulario">
             Enter or register, it's totally free
           </p>
@@ -27,7 +28,12 @@
               <tr>
                 <td>
                   <div class="entrada-contenedor">
-                    <input type="text" placeholder="User" class="entrada" />
+                    <input
+                      type="text"
+                      placeholder="User"
+                      class="entrada"
+                      name="user"
+                    />
                     <img src="./assets/images/user.svg" alt="user" />
                   </div>
                 </td>
@@ -39,8 +45,9 @@
                       type="password"
                       placeholder="Password"
                       class="entrada"
+                      name="password"
                     />
-                    <img src="./assets/images/password.svg" alt="user" />
+                    <img src="./assets/images/password.svg" alt="password" />
                   </div>
                 </td>
               </tr>

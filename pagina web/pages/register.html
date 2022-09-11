@@ -4,7 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register</title>
+    <link rel="stylesheet" href="../styles/styles.css" type="text/css" />
+    <title>Sing Up</title>
   </head>
-  <body></body>
+  <body class="custom-color">
+    <div class="main-container">
+      <div class="imagen-area imagen-registro"></div>
+      <div class="formulario-area">
+        <div class="contenedor-formulario">
+          <h2 class="titulo-formulario">Sing up</h2>
+          <p class="subtitulo-formulario">Starts today!</p>
+          <form
+            action="../conexion/registrar.php"
+            method="post"
+            class="formulario"
+          >
+            <tr>
+              <td>
+                <div class="entrada-contenedor">
+                  <input
+                    type="text"
+                    placeholder="User"
+                    class="entrada"
+                    name="user"
+                  />
+                  <img src="../assets/images/user.svg" alt="user" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="entrada-contenedor mt-15">
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    class="entrada"
+                    name="password"
+                  />
+                  <img src="../assets/images/password.svg" alt="password" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="entrada-contenedor mt-15">
+                  <input
+                    type="password"
+                    placeholder="Repeat your password"
+                    class="entrada"
+                    name="password2"
+                  />
+                  <img src="../assets/images/password.svg" alt="password" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="mt-15">
+                  <label for="checkbox" class="terms">
+                    <input type="checkbox" name="cbox" />
+                    I agree with the terms and conditions
+                  </label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="black-boton mt-15" type="submit" value="Send" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="../index.html" class="back mt-15"> Go back </a>
+              </td>
+            </tr>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

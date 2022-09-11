@@ -2,15 +2,15 @@
 
 include('conexion.php');
 
-$usuario = $_POST["usuario"];
-$contraseña = $_POST["contraseña"];
-$contraseña2 = $_POST["contraseña2"];
+$usuario = $_POST["user"];
+$contraseña = $_POST["password"];
+$contraseña2 = $_POST["password2"];
 
 if($usuario == "" || $contraseña=="" || $contraseña2=="" )
 {
     echo'<script type="text/javascript">
     alert("Por favor llene todos los campos!");
-    window.location.href="../pages/registro.html";
+    window.location.href="../pages/register.html";
     </script>';
 }
 
@@ -18,7 +18,7 @@ elseif($contraseña != $contraseña2)
 {
     echo'<script type="text/javascript">
     alert("Las contraseñas no coinciden!...");
-    window.location.href="../pages/registro.html";
+    window.location.href="../pages/register.html";
     </script>';
 }
 
@@ -33,7 +33,7 @@ else
     {
         echo'<script type="text/javascript">
         alert("El usuario ya existe!");
-        window.location.href="../pages/registro.html";
+        window.location.href="../pages/register.html";
         </script>';
     }
     else
@@ -49,7 +49,7 @@ else
         }else{
             echo'<script type="text/javascript">
             alert("Ha ocurrido un problema de conexion");
-            window.location.href="../pages/registro.html";
+            window.location.href="../pages/register.html";
             </script>';
         }
     }
