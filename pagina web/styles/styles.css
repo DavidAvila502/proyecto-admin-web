@@ -365,6 +365,23 @@
   background-image: url("../assets/images/imagen-banner.png");
 }
 
+/** Seccion de footer **/
+
+.footer {
+  height: 125px;
+  background-color: #000;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-left: 44px;
+}
+
 /***************************** MEDIA QUERYES ****************************/
 @media (max-width: 500px) {
   .main-container {
