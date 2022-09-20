@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+/**** pantalla de login*****/
 .custom-color {
   background-color: #484848;
 }
@@ -174,6 +174,8 @@
 }
 
 /**************************** HOME STYLES *******************************/
+/** Seccion de Navbar **/
+
 .logo {
   height: 47px;
   width: 47px;
@@ -197,6 +199,9 @@
   text-decoration: none;
   color: #000;
 }
+
+/** Seccion de Banner **/
+
 .banner {
   margin-left: auto;
   margin-right: auto;
@@ -213,7 +218,7 @@
   display: flex;
   padding-top: 30px;
   padding-left: 27px;
-  /* align-items: center; */
+  padding-right: 27px;
   flex-direction: column;
 }
 .titulo-banner {
@@ -246,7 +251,13 @@
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   margin-right: 82px;
+  transition: 0.2s;
 }
+
+.boton-contactar:hover {
+  transform: scale(1.08);
+}
+
 .boton-nosotros {
   display: flex;
   justify-content: center;
@@ -259,6 +270,95 @@
   height: 46px;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
+  transition: 0.2s;
+}
+
+.boton-nosotros:hover {
+  transform: scale(1.08);
+}
+/** Seccion de Habilidades **/
+.habilidades-seccion {
+  margin-top: 30px;
+  background-color: #000;
+  height: 337px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo-seccion {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  margin-top: 20px;
+  color: #fff;
+}
+.card-list {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+}
+.card-item {
+  color: white;
+  margin-right: 60px;
+  height: 224px;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/** Seccion de Clientes **/
+
+.clientes-seccion {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+.clientes-imagen {
+  margin-left: 162px;
+}
+.circle-clientes {
+  border-radius: 200px;
+  background-color: #000;
+  width: 310px;
+  height: 304px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 162px;
+}
+.clientes-texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+/** Seccion de Socios **/
+
+.socios-seccion {
+  margin-top: 30px;
+  background-color: #fff;
+  height: 337px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo-socios {
+  color: #000;
+}
+
+.item-black {
+  color: #000;
+}
+.end-item {
+  margin-right: 0px;
 }
 .imagen-banner {
   grid-area: imagen-banner;
